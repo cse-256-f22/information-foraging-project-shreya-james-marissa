@@ -1,0 +1,11 @@
+@import url("common.css");
+@import url("side_menu.css");
+.image-container {
+    background-size: 100% 900px;
+    background-image: url("https://nurseryschool.wustl.edu/files/2017/09/170914_jjn_nursery_school_008.jpg");
+}
+
+.inner-item {
+    clear: both;
+    overflow: auto;
+}

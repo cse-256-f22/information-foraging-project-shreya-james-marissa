@@ -1,0 +1,69 @@
+@import url("common.css");
+@import url("side_menu.css");
+@import url("staff_entry.css");
+#class-schedule td {
+    border: 1px solid #ddd;
+}
+
+.day-to-attend {
+    color: rgb(85, 85, 85);
+    cursor: default;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.enrollment-form-submit {
+    align-items: flex-start;
+    background-color: rgb(165, 20, 23);
+    border-bottom-color: rgb(165, 20, 23);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(165, 20, 23);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(165, 20, 23);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(165, 20, 23);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    height: 35.3333px;
+    letter-spacing: normal;
+    line-height: 17.6px;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    text-align: center;
+}

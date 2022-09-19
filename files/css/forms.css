@@ -1,0 +1,22 @@
+@import url("common.css");
+.image-container {
+    background-image: url("https://nurseryschool.wustl.edu/files/2015/03/group-holi.jpg");
+}
+
+main ul {
+    padding-top: 10px;
+    margin-left: 1.5em;
+}
+
+main li {
+    color: rgb(85, 85, 85);
+    display: list-item;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19.2px;
+    height: 54.6667px;
+    line-height: 27.84px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: disc;
+    margin-bottom: 15px;
+}

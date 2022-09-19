@@ -1,0 +1,17 @@
+@import url('header.css');
+@import url('footer.css');
+@import url('common.css');
+
+main * {
+    font-size: 18px;
+}
+fieldset {
+    border: 1px solid gray;
+}
+
+button[type=submit] {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px gray solid;
+}

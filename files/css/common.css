@@ -1,0 +1,99 @@
+@import url("header.css");
+@import url("footer.css");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body main {
+    color: #555;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.45;
+}
+
+main div {
+    display: block;
+    box-sizing: inherit;
+}
+
+#page-content {
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+main {
+    margin: 40px 60px 40px 60px;
+}
+
+main p {
+    color: rgb(85, 85, 85);
+    font-size: 19.2px;
+    line-height: 27.84px;
+    margin-bottom: 19.2px;
+}
+
+main h1 {
+    color: rgb(61, 61, 61);
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    line-height: 48px;
+    margin-bottom: 32px;
+}
+
+main h2 {
+    color: rgb(85, 85, 85);
+    font-size: 27.648px;
+    font-weight: 300;
+    line-height: 36.8548px;
+    margin-bottom: 24px;
+}
+
+main h3 {
+    color: rgb(85, 85, 85);
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 37px;
+}
+
+main p a,
+main h1 a,
+main h2 a,
+main h3 a,
+main h4 a {
+    color: #a51417;
+}
+
+#naeyc-logo {
+    margin-left: 1.5em;
+    margin-bottom: 0.5em;
+    padding-right: 10px;
+    float: right;
+}
+
+.image-container {
+    background-size: 100% 400px;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+}
+
+.submit-button {
+    display: inline-block;
+    cursor: pointer;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1em;
+    text-decoration: none;
+    padding: 0.5em 1.25em;
+    margin: 0 0 1em;
+    border: 1px solid #a51417;
+    border-radius: 6px;
+    background-color: #a51417;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "scenario": "You are interested in applying for admission to the Washington University Nursery School.",
+    "question": "Figure out what the process is and what kinds of information you will need to provide. What are the required steps you need to take? Are there other recommended actions?",
+    "inputType": "textarea",
+    "tag": "apply"
+  },
+  {
+    "scenario": "You are looking at preschools for your son, who will be 3 in July. You know that Washington University Nursery School is play-based, but want to know how skills in different academic areas are presented through the curriculum.",
+    "question": "Find examples of potential math and reading activities that your son might encounter.",
+    "inputType": "textarea",
+    "tag": "math_example"
+  },
+  {
+    "scenario": "You are a parent with a child who has just been accepted to attend as a full time student at the Washington University Nursery School. You need to pay one month of tuition as a deposit.",
+    "question": "Find out how much one month of tuition is and whether or not it is possible to pay online.",
+    "inputType": "textarea",
+    "tag": "tuition"
+  },
+  {
+    "scenario": "You are a parent with a child who has just been accepted to attend as a full time student at the Washington University Nursery School. You want to accept the offer of admission.",
+    "question": "Figure out what forms they need you to fill out at this time.",
+    "inputType": "textarea",
+    "tag": "accepted_forms"
+  }
+]

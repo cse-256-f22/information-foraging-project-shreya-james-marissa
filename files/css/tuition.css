@@ -1,0 +1,104 @@
+@import url("common.css");
+@import url("side_menu.css");
+@import url("slideshow.css");
+@import url("staff_entry.css");
+tr {
+    display: table-row;
+    background-color: #eee;
+}
+
+th {
+    background-color: #3d3d3d;
+    color: #eee;
+    font-weight: bold;
+    display: table-cell;
+    padding: 1em;
+}
+
+tr,
+td {
+    padding: 1em;
+    border: 1px solid #dadada;
+    font-size: 1em;
+    line-height: 1.1em;
+}
+
+.announcements h4 {
+    margin-top: 1em;
+    color: rgb(208, 28, 41);
+    cursor: pointer;
+    font-family: "Libre Baskerville", "Times New Roman", serif;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    line-height: 28px;
+    text-decoration-color: rgb(208, 28, 41);
+}
+
+.announcements p {
+    color: rgb(99, 99, 99);
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 23px;
+    margin-bottom: 1em;
+}
+
+#small-image-collection {
+    overflow: auto;
+    clear: both;
+}
+
+main strong {
+    font-size: 2.2rem;
+    color: #3d3d3d;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+main ul {
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+main li {
+    font-size: 1.15em;
+    margin-bottom: 1em;
+}
+
+.classroom {
+    margin-top: 6em;
+    margin-bottom: 1em;
+    clear: both;
+    overflow: hidden;
+}
+
+.classroom img {
+    float: left;
+    margin-right: 2.5em;
+}
+
+.classroom p {
+    font-size: 1.15em;
+}
+
+#class-schedule strong {
+    color: rgb(85, 85, 85);
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+#class-schedule table {
+    border-collapse: collapse;
+}
+
+#class-schedule tbody {
+    display: table-row-group;
+    vertical-align: middle;
+}
+
+#class-schedule td {
+    border: 1px solid #ddd;
+}

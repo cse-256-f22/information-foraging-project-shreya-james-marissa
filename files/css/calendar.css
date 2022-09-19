@@ -1,0 +1,42 @@
+@import url("common.css");
+.image-container {
+    background-size: 100% 900px;
+    background-image: url("https://nurseryschool.wustl.edu/files/2017/09/170914_jjn_nursery_school_008.jpg");
+}
+
+.calendar-session {
+    border: 1px solid #eee;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.calendar-session header {
+    color: rgb(85, 85, 85);
+    background-color: #eee;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-block-end: 12px;
+    margin-block-start: 0px;
+    padding: 20px 20px 20px 20px;
+}
+
+.calendar-entry h3 {
+    color: rgb(85, 85, 85);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-block-end: 12px;
+    margin-block-start: 0px;
+    padding: 10px 10px 0px 20px;
+}
+
+.calendar-entry p {
+    color: rgb(85, 85, 85);
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 17px;
+    margin-block-end: 12px;
+    margin-block-start: 0px;
+    padding: 0px 0px 10px 20px;
+}

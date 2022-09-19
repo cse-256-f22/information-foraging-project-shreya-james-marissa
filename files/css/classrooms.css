@@ -1,0 +1,26 @@
+@import url("common.css");
+@import url("side_menu.css");
+main ul {
+    margin-top: 1em;
+}
+
+main li {
+    font-size: 1.15em;
+    margin-bottom: 1em;
+}
+
+.classroom {
+    margin-top: 6em;
+    margin-bottom: 1em;
+    clear: both;
+    overflow: hidden;
+}
+
+.classroom img {
+    float: left;
+    margin-right: 2.5em;
+}
+
+.classroom p {
+    font-size: 1.15em;
+}
