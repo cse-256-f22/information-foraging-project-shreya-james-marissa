@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Information Foraging project for CSE 256 in the form of WUSTL's Nursery School website.",
   "main": "./scripts/js/app.js",
-  "url": "put your repository's home page url here",
+  "url": "https://cse-256-f22.github.io/information-foraging-project-shreya-james-marissa/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sandbox": "node ./deploy/sandbox.js",
