@@ -16,7 +16,7 @@
   "author": "Riley McCuen",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.596.0"
+    "aws-sdk": "^2.1220.0"
   },
   "devDependencies": {
     "@types/node": "^13.1.1",
@@ -27,6 +27,6 @@
     "stringify": "^5.2.0",
     "tsify": "^4.0.1",
     "typescript": "^3.7.4",
-    "watchify": "^3.11.1"
+    "watchify": "^4.0.0"
   }
 }

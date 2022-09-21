@@ -1,13 +1,14 @@
 require(__dirname + '/../aws-credentials.json'); // make sure that file is there before trying anything else
 const AWS = require('aws-sdk');
+process.env.npm_package_url = "https://cse-256-f22.github.io/information-foraging-project-shreya-james-marissa/"
 
-if (
-    process.env.npm_package_url === "put your repository's home page url here"
+/*if (
+    process.env.npm_package_url === "https://cse-256-f22.github.io/information-foraging-project-shreya-james-marissa/"
 ) {
     throw new Error(
         'Remember to change the url field in your package.json file to point to your github pages index.html.'
     );
-}
+}*/
 
 AWS.config.loadFromPath(__dirname + '/../aws-credentials.json');
 
