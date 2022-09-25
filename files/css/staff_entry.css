@@ -3,6 +3,11 @@
     grid-template-columns: 50% 50%;
 }
 
+.all_teachers_staff{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 .staff-qualifications {
     font-size: 1.2rem;
     line-height: 1.2;
