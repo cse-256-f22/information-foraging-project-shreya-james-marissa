@@ -102,3 +102,7 @@ main li {
 #class-schedule td {
     border: 1px solid #ddd;
 }
+
+#next_link{
+    color: white;
+}
