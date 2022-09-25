@@ -24,3 +24,17 @@ main li {
 .classroom p {
     font-size: 1.15em;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  table, th, td {
+    border: 1px solid;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }

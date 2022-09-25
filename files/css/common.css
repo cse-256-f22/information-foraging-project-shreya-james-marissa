@@ -12,6 +12,18 @@ body main {
     line-height: 1.45;
 }
 
+td {
+    color: #555;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.45;
+}
+
+a{
+    color: #a51417;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.45;
+}
+
 main div {
     display: block;
     box-sizing: inherit;
