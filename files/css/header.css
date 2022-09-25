@@ -29,16 +29,21 @@ header {
 .site-title {
     color: #3d3d3d;
     display: block;
-    font-family: "Libre Baskerville", "Times New Roman", serif;
     font-weight: 500;
     text-decoration: none;
     font-size: 18px !important;
-    margin-top: -2px;
-    color: #fca3a5 !important;
+
+}
+
+.vertical {
+    border-left: 3px solid #868383;
+    height: 55px;
+    position: absolute;
+    vertical-align: middle;
 }
 
 .site-title:hover {
-    color: #a51417;
+    color: #fca3a5 !important;
     text-decoration: underline;
 }
 
