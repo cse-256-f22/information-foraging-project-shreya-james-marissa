@@ -30,13 +30,11 @@ header {
     color: #3d3d3d;
     display: block;
     font-family: "Libre Baskerville", "Times New Roman", serif;
-    width: calc( 100% - 65px);
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    font-size: 3rem;
-    font-weight: 400;
-    line-height: 1.2;
+    font-weight: 500;
     text-decoration: none;
+    font-size: 18px !important;
+    margin-top: -2px;
+    color: #fca3a5 !important;
 }
 
 .site-title:hover {
@@ -51,6 +49,7 @@ header {
     overflow: hidden;
     background-color: #3d3d3d;
     font-family: Arial;
+    
 }
 
 
