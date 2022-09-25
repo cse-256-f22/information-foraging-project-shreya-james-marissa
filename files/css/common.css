@@ -18,6 +18,10 @@
     display:inline-block;
 }
 
+img {
+    pointer-events: none;
+}
+
 body main {
     color: #555;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -175,4 +179,10 @@ main h4 a {
 
 #beartracks_table{
     color: #c06b6c;
+}
+
+#collaspe_h2{
+    font-size: 20px !important;
+    color: #a51417 !important;
+    font-weight: 600;
 }
