@@ -8,10 +8,14 @@
 
 #header_img {
     object-fit: cover;
+    object-position: 0px 15%;
     min-width: 100%;
-    max-height: 20vh;
+    max-height: 30vh;
     overflow: hidden;
     padding: -10vh;
+    position: relative;
+    top: 0px;
+    display:inline-block;
 }
 
 body main {
