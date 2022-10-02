@@ -105,3 +105,18 @@ main li {
 #next_link{
     color: white;
 }
+
+.discipline{
+    background-color: rgb(208, 28, 41);
+   
+    border: solid white;
+}
+
+.discipline h2{
+    color: white;
+}
+
+.discipline p{
+    color: white;
+}
+
