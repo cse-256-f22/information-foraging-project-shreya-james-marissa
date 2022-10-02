@@ -106,17 +106,8 @@ main li {
     color: white;
 }
 
-.discipline{
-    background-color: rgb(208, 28, 41);
-   
-    border: solid white;
+.sick_table{
+    display: grid;
+    width: 50%;
+    grid-template-columns: auto;
 }
-
-.discipline h2{
-    color: white;
-}
-
-.discipline p{
-    color: white;
-}
-
