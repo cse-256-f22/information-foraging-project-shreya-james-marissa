@@ -92,12 +92,7 @@ export class Router {
 
     public static IMAGE_LINK_LISTENER(e: MouseEvent) {
         return error(() => {
-            // TODO: Load modal or load nothing at all, fix this
             e.preventDefault();
-            const target = e.target as HTMLImageElement;
-            const url = target.src;
-            History.forward(Router.getPathName(url));
-            return HTMLLoader.loadURL(url, Elements.htmlLoc);
         });
     }
 
@@ -196,12 +191,12 @@ export class Router {
                 });
                 if (passesRegexTest) {
                     D.addEventListener(elem, 'click', (e) =>
-                        Router.STANDARD_LINK_LISTENER(e as MouseEvent)
+                        Router.IMAGE_LINK_LISTENER(e as MouseEvent)
                     );
                 }
             } else {
                 D.addEventListener(elem, 'click', (e) =>
-                    Router.STANDARD_LINK_LISTENER(e as MouseEvent)
+                    Router.IMAGE_LINK_LISTENER(e as MouseEvent)
                 );
             }
         },

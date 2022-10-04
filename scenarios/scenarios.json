@@ -1,45 +1,72 @@
 [
     {
-      "scenario": "You have a daughter, age 3, who attends the Washington University Nursery School and is in the Teddy Bear classroom. You are planning a trip to the library and want to check out some books that connect with something she is doing in school.",
-      "question": "What are some potential book topics that relate to something that is going on in her classroom this week?",
-      "inputType": "textarea",
-      "tag": "book_topics"
+        "context": "You are a parent considering sending your child to Washington University Nursery School. You’ve learned that the curriculum is play-based and you want to know how learning is incorporated into a play-based context. You have some ideas about how language learning might happen, but are less sure about math.",
+        "question": "Find some examples of how math learning is incorporated at Washington University Nursery School.",
+        "tag": "math"
     },
     {
-      "scenario": "Your son is a student in the Panda Bear classroom and has come home this week singing a song in Spanish. You think he has the words slightly wrong, but your Spanish is a little bit rusty.",
-      "question": "Find the lyrics for the songs his class is currently singing in Spanish.",
-      "inputType": "textarea",
-      "tag": "spanish_lyrics"
+        "context": "You are investigating pre-school options for your 4 year old. Both you and your spouse work, so you need to fully understand what scheduling constraints each option involves. One of your schools of interest is the Washington University Nursery School.",
+        "question": "When does school start and end each day? What is the longest period of time that your child can be there?",
+        "tag": "school_day"
     },
     {
-      "scenario": "You are a father with a son who is in the Big Bears and Sun Bears classrooms. You know there’s a Donuts with Dads event in the fall and want to make sure to get it onto your work calendar early so that you don’t accidentally schedule something that makes it impossible to attend.",
-      "question": "What date and time do you need to block off?",
-      "inputType": "textarea",
-      "tag": "time_off"
+        "context": "You are investigating pre-school options for your 3.5 year old. You’ve been told that one of the hallmarks of a good program is teachers who have been there for a long time. You want your child to attend in the mornings only.",
+        "question": "Which teachers would your child have and how long have they been at the school?",
+        "tag": "teacher_tenure"
     },
     {
-      "scenario": "You have two children that attend Washington University Nursery School. You know that the school has some holidays throughout the year. You want to line up alternative childcare arrangements for the days with no school.",
-      "question": "Find all of the dates when you will need alternative care through the end of this year.",
-      "inputType": "textarea",
-      "tag": "alternate_care"
+        "context": "You are starting to look at summer camp options and have heard good things about Washington University Nursery School for young children.",
+        "question": "What are the daily camp hours? Are there any extended day opportunities?",
+        "tag": "summer_camp"
     },
     {
-      "scenario": "A new school year is about to start.",
-      "question": "Figure out which forms you need to fill out so that you can have them completed by the first day of school.",
-      "inputType": "textarea",
-      "tag": "forms"
+        "context": "You are investigating pre-school options for your spirited 3 year old and want to understand their approach to discipline.",
+        "question": "How do teachers at Washington University approach discipline?",
+        "tag": "discipline"
     },
     {
-      "scenario": "You have a daughter in the Teddy Bear classroom at Washington University Nursery School. You would like to find a way to be involved with the school to get a stronger sense of her school experience and to give back.",
-      "question": "What options do you have to volunteer for the school?",
-      "inputType": "textarea",
-      "tag": "volunteer"
+        "context": "Your daughter is in the Teddy Bear class at Washington University Nursery School. She came home this week singing a song in Spanish about shapes, but you are pretty sure that she has some of the words wrong.",
+        "question": "What are the correct lyrics?",
+        "tag": "spanish_song"
     },
     {
-      "scenario": "Your son has a birthday coming up soon and you would like to send in a treat to share at school.",
-      "question": "Is this ok? What kinds of treats are acceptable? What do you need to do to set it up?",
-      "inputType": "textarea",
-      "tag": "birthday"
+        "context": "It is mid-December and you are thinking about things to do over your daughter's upcoming school break. She is 3 years old and attends the Washington University Nursery School and is in the Teddy Bear classroom. You are planning a trip to the library and want to check out some books that connect with something she is doing in school.",
+        "question": "What are some potential book topics that relate to something that is going on in her classroom this week?",
+        "tag": "books"
+    },
+    {
+        "context": "You are a parent with a child who has just been accepted to attend as a full time student at the Washington University Nursery School. You want to accept the offer of admission.",
+        "question": "Figure out what you need to do at this time to finalize your child’s place at the school.",
+        "tag": "admission_2"
+    },
+    {
+        "context": "You are a parent with a child who has just been accepted to attend as a full time student at the Washington University Nursery School. You need to pay one month of tuition as a deposit.",
+        "question": "Find out how much one month of tuition is and whether or not it is possible to pay online.",
+        "tag": "deposit"
+    },
+    {
+        "context": "You are moving to St. Louis from Beijing and looking for a Pre-K program for your daughter, age 5. She is very close to her friends and you are worried that the move might be hard on her. She may need some extra support from her new teachers learning English, adapting to American culture, and making new friends.",
+        "question": "How does the Washington University Nursery School staff approach providing extra help to students who need it?",
+        "tag": "help"
+    },
+    {
+        "context": "You are looking at Nursery Schools for your soon to be 3 year old. He has never been in school or daycare before and you are somewhat worried about the transition. You'd like to ensure that you'll be able to have strong communicationat his new school.",
+        "question": "How does the Washington University Nursery School handle communicating with parents?",
+        "tag": "communication"
+    },
+    {
+        "context": "It’s mid-December and your son, age 4, came home all excited about science class. They learned a new word, but he can’t actually remember the word they learned about.",
+        "question": "What was the topic of his recent science class?",
+        "tag": "science"
+    },
+    {
+        "context": "You are selecting a pre-school, but want to be sure that your daughter will be ready for kindergarten when it’s time.",
+        "question": "How does the nursery school assess children’s knowledge, support their growth, and share the results with parents?",
+        "tag": "parent_teacher_conference"
+    },
+    {
+        "context": "You have recently accepted a position for your child for the coming school year at the Washington University Nursery School. Up to this point, your child has been at home and you are somewhat worried about the transition.",
+        "question": "How does the nursery school support kids’ transitions into school?",
+        "tag": "orientation"
     }
-  ]
-  
+]

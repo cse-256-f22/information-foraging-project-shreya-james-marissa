@@ -1,3 +1,4 @@
+import { params } from '../core/utils/q_params';
 import { data } from './../core/data-log/data';
 import { ActionEnum } from './../core/data-log/event';
 import { D } from './../core/dom/document';
@@ -10,17 +11,18 @@ import { DebugLevelEnum } from './../core/utils/console_wrapper';
 import { HTMLLoader } from './../core/utils/html_loader';
 import { IDGenerator } from './../core/utils/id_generator';
 import { waitUntilReady } from './../core/utils/ready';
-import { scenarios } from './../core/utils/scenarios';
+import { scenarios, Scenario } from './../core/utils/scenarios';
 
 const setup = async () => {
     await waitUntilReady();
-    // const scenarioTag = window.location.hash.split('?')[0].replace('#', '');
-    // const scenario = scenarios.find((scen) => scen.tag === scenarioTag);
-    // if (scenario === null || scenario === undefined) {
-    //     alert('This HIT is broken and cannot be completed at this time.');
-    //     return;
-    // }
-    // Tracker.loadScenario(scenario);
+    const scenario = scenarios.find((scen) => scen.tag === params.tag);
+    if (!params.sandbox) {
+        if (scenario === null || scenario === undefined) {
+            alert('This HIT is broken and cannot be completed at this time.');
+        } else {
+            Tracker.loadScenario(scenario as Scenario);
+        }
+    }
     Tracker.start({
         keyPrefix: 'information-foraging',
         bucketName: 'cse-256-log',

@@ -8,7 +8,7 @@ export interface MturkURLData {
     submitTo: string | null;
 }
 
-const urlParams = new URLSearchParams(window.location.hash.split('?')[1]);
+const urlParams = new URL(window.location.href).searchParams;
 
 export const urlData: MturkURLData = {
     raw: urlParams.toString(),

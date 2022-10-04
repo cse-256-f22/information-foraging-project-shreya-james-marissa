@@ -4,7 +4,6 @@ import { Elements } from '../dom/elements';
 import { TrackerElements } from '../dom/tracker_elems';
 import { DebugLevelEnum, log, setDebugLevel } from '../utils/console_wrapper';
 import { Scenario } from '../utils/scenarios';
-import { MturkClient } from './../aws/mturk';
 import { data } from './../data-log/data';
 import { AllowSubmission, SubmitForm } from './../dom/submit_form';
 
@@ -22,7 +21,7 @@ export class Tracker {
     public static lastPos = { x: 0, y: 0, time: 0 };
 
     public static loadScenario(scen: Scenario) {
-        let sub = scen.scenario;
+        let sub = scen.context;
         if (sub.length > 50) {
             sub = sub.substring(0, 50);
             const inds = [
@@ -35,9 +34,10 @@ export class Tracker {
             const ind = Math.max(...inds);
             sub = sub.substring(0, ind) + '...';
         }
-
+        console.log(scen);
+        console.log('loaded scen');
         Elements.mtTopBannerText.innerText = sub;
-        Elements.mtScenarioContext.innerText = scen.scenario;
+        Elements.mtScenarioContext.innerText = scen.context;
         Elements.mtScenarioQuestion.innerText = scen.question;
         Elements.htmlLoc.dataset.task = scen.tag;
     }
@@ -47,7 +47,6 @@ export class Tracker {
         // configure tracker specific elements
         TrackerElements.setupTrackerElements();
         SubmitForm.setup(config.allowSubmission);
-        MturkClient.init(config.bucketName, config.keyPrefix);
         data.data.task = Elements.htmlLoc.dataset.task;
         config.setup();
     }

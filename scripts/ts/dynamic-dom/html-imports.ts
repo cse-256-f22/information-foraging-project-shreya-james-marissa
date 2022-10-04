@@ -28,9 +28,5 @@ export const itemsToCache = [
         name: 'footer',
         content: require('./html/footer.html'),
     },
-    {
-        name: 'nested',
-        content: require('./html/nested.html'),
-    },
     // Put more items in the array below here.
 ];
