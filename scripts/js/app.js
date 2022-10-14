@@ -1,4 +1,4 @@
-var showing = true;
+showing = true;
 
 window.onload = function () {
 
