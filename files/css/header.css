@@ -15,6 +15,25 @@ header {
     background-color: #3d3d3d;
 }
 
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 43px;
+    width: 100%
+  }
+
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 102px;
+  }
+
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+.showing {
+    position: fixed;
+    top: 334px !important;
+    width: 100%;
+  }
+
 .container {
     width: 92%;
     max-width: 71em;
