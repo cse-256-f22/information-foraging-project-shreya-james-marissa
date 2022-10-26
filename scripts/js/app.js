@@ -1,3 +1,36 @@
+showing = true;
+
+window.onload = function () {
+
+
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+
+    // Get the header
+    header = document.getElementById("main-menu-container");
+
+    // Get the offset position of the navbar
+    var sticky = header.offsetTop;
+
+    // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+        if (window.pageYOffset > sticky && showing == false) {
+            header.classList.add("sticky");
+            header.classList.remove("showing");
+        } else if (window.pageYOffset > sticky-334 && showing == true) {
+            header.classList.add("showing");
+        } else if (window.pageYOffset < sticky && showing == false){
+            header.classList.remove("showing");
+            header.classList.remove("sticky");
+        } else if (window.pageYOffset < sticky-334 && showing == true){
+            header.classList.remove("showing");
+            header.classList.remove("sticky");
+        }
+    }
+
+
+};
+
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 module.exports=[
     {
@@ -232,12 +265,18 @@ var TopBanner = /** @class */ (function () {
         document_1.D.display(elements_1.Elements.ddUp, true);
         document_1.D.display(elements_1.Elements.ddDown, false);
         document_1.D.display(elements_1.Elements.ddContent, true);
+        showing = true;
+        header.classList.remove("showing");
+        header.classList.remove("sticky");
     };
     TopBanner.hide = function () {
         TopBanner.showing = false;
         document_1.D.display(elements_1.Elements.ddDown, true);
         document_1.D.display(elements_1.Elements.ddUp, false);
         document_1.D.display(elements_1.Elements.ddContent, false);
+        showing = false;
+        header.classList.remove("showing");
+        header.classList.remove("sticky");
     };
     TopBanner.doDisplayChange = function () {
         TopBanner.showing ? TopBanner.hide() : TopBanner.show();
